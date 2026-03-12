@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KQ9RC746F"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-3KQ9RC746F');
-</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Backpacking Weight Calculator</title>
 <meta name="description" content="Calculate and track the weight of your backpacking gear. Plan your hiking trips with detailed weight breakdowns by category.">
 <meta property="og:title" content="Backpacking Weight Calculator">
 <meta property="og:description" content="Calculate and track the weight of your backpacking gear.">
-<meta property="og:url" content="https://liastif.github.io/gear-weight">
+<meta property="og:url" content="https://backpacking-calculator.netlify.app">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <link rel="stylesheet" href="style.css">
@@ -23,7 +15,7 @@
 <link rel="apple-touch-icon" href="icon.png">
 <meta name="keywords" content="backpacking, hiking, gear weight calculator, pack weight, ultralight, camping, travel gear">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://liastif.github.io/gear-weight">
+<link rel="canonical" href="https://backpacking-calculator.netlify.app">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 </head>
 <body>
@@ -52,6 +44,7 @@
       <div class="chart-box"><div class="chart-title" id="ct1"></div><canvas id="ch1"></canvas></div>
       <div class="chart-box"><div class="chart-title" id="ct2"></div><canvas id="ch2"></canvas></div>
       <div class="chart-box"><div class="chart-title" id="ct3"></div><canvas id="ch3"></canvas></div>
+      <div class="chart-box"><div class="chart-title" id="ct4"></div><canvas id="ch4"></canvas></div>
     </div>
   </div>
 </div>
@@ -68,6 +61,8 @@
    onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
   ☕ Buy me a coffee
 </a>
+<script data-goatcounter="https://tifaiden.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.5.0/lz-string.min.js"></script>
 <script src="app.js"></script>
 </body>
