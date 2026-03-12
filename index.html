@@ -3,11 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Backpacking Weight Calculator</title>
-<meta name="description" content="Calculate and track the weight of your backpacking gear. Plan your hiking trips with detailed weight breakdowns by category.">
+<title>Backpacking Weight Calculator — Free Gear Weight Planner</title>
+<meta name="description" content="Free backpacking gear weight calculator. Track and plan your hiking pack weight with charts, categories, and shareable lists.">
 <meta property="og:title" content="Backpacking Weight Calculator">
-<meta property="og:description" content="Calculate and track the weight of your backpacking gear.">
-<meta property="og:url" content="https://backpacking-calculator.netlify.app">
+<meta property="og:description" content="Free tool to calculate and track your backpacking gear weight. Charts, categories, shareable lists.">
+<meta property="og:url" content="https://liastif.github.io/gear-weight/">
+<meta property="og:type" content="website">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DJF5HT3V6M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-DJF5HT3V6M');
+</script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <link rel="stylesheet" href="style.css">
@@ -15,8 +24,8 @@
 <link rel="apple-touch-icon" href="icon.png">
 <meta name="keywords" content="backpacking, hiking, gear weight calculator, pack weight, ultralight, camping, travel gear">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://backpacking-calculator.netlify.app">
-<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<link rel="canonical" href="https://liastif.github.io/gear-weight/">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
 </head>
 <body>
 <div class="app">
@@ -61,8 +70,6 @@
    onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
   ☕ Buy me a coffee
 </a>
-<script data-goatcounter="https://tifaiden.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.5.0/lz-string.min.js"></script>
 <script src="app.js"></script>
 </body>
